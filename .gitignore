@@ -1,1 +1,36 @@
-/target
+# Rust Build-Artefakte
+/target/
+
+# Cargo Lock-Datei (für Libraries optional)
+Cargo.lock
+
+# Backup-Dateien von rustfmt
+**/*.rs.bk
+
+# IDE/Editor Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.temp
+
+# Rust-analyzer cache
+.rust-analyzer/
